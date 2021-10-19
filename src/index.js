@@ -90,6 +90,7 @@ let nowPage = 1; //当前页数
       option,
       data
     }));
+    console.log('抓取完成');
     page.close();
   }
 

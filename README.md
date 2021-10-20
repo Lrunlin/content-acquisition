@@ -13,6 +13,7 @@ Node.js爬虫,程序为思否社区的文章爬取,使用 Node.js 程序编写�
 5. 设置文章禁用词,不收录包含本词汇的文章(prohibited)
 6. 选择是否允许包含超链接(a)
 7. 选择文章类型(type)
+8. 打印文章数据为JSON文件
 
 ## 运行
 
@@ -25,6 +26,7 @@ Node.js爬虫,程序为思否社区的文章爬取,使用 Node.js 程序编写�
 2. html {string} 文章主体内容
 3. type {string[]} 文章类型
 4. time {Date} 文章发布时间（UTC）
+5. href {strinf} 文章原地址
 
 ## 代码运行流程
 
